@@ -527,3 +527,173 @@ footer .btn-social button {
     margin: 0 10px;
     transition: .2s;
 }
+
+
+/* ===========================
+   RESPONSIVIDADE
+=========================== */
+
+/* ===== Até 1024px ===== */
+@media screen and (max-width: 1024px) {
+
+    header > .interface {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    header nav ul li {
+        padding: 10px 20px;
+    }
+
+    section.topo-site .flex {
+        flex-direction: column;
+        gap: 50px;
+        text-align: center;
+    }
+
+    .topo-site img {
+        width: 300px;
+        height: auto;
+    }
+
+    .topo-site h1 {
+        font-size: 36px;
+    }
+
+    section.ferramentas .content_tec {
+        gap: 20px;
+    }
+
+    .tecnologias {
+        width: 100px;
+        height: 100px;
+    }
+
+    .slide {
+        width: 200px;
+        height: 350px;
+    }
+
+    .slide img {
+        width: 100%;
+        height: auto;
+    }
+
+    .slide-bus {
+        width: 500px;
+        height: 400px;
+    }
+
+    section.especialidades .flex {
+        flex-direction: column;
+        gap: 40px;
+    }
+}
+
+/* ===== Até 768px ===== */
+@media screen and (max-width: 768px) {
+
+    .topo-site img {
+        width: 250px;
+    }
+
+    .topo-site h1 {
+        font-size: 32px;
+    }
+
+    .slide {
+        width: 180px;
+        height: 300px;
+    }
+
+    .slide-bus {
+        width: 400px;
+        height: 350px;
+    }
+
+    .tecnologias {
+        width: 90px;
+        height: 90px;
+    }
+
+    section.sobre .flex {
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+    }
+
+    section.sobre img {
+        width: 220px;
+        height: auto;
+    }
+
+    .sobre .texto-sobre h2 {
+        font-size: 32px;
+    }
+}
+
+/* ===== Até 470px ===== */
+@media screen and (max-width: 470px) {
+
+    header > .interface {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+
+    header nav ul li {
+        display: block;
+        padding: 10px 0;
+    }
+
+    section.topo-site .flex {
+        gap: 30px;
+    }
+
+    .topo-site h1 {
+        font-size: 28px;
+    }
+
+    .topo-site img {
+        width: 200px;
+    }
+
+    .slide {
+        width: 160px;
+        height: 280px;
+    }
+
+    .slide-bus {
+        width: 300px;
+        height: 400px;
+    }
+
+    .tecnologias {
+        width: 80px;
+        height: 80px;
+    }
+
+    .tecnologias img {
+        width: 50px;
+        height: 50px;
+    }
+
+    section.sobre .flex {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    section.sobre img {
+        width: 200px;
+    }
+
+    .sobre .texto-sobre h2 {
+        font-size: 28px;
+    }
+
+    .sobre .texto-sobre p {
+        font-size: 14px;
+    }
+}
