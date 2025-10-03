@@ -594,6 +594,10 @@ footer .btn-social button {
 /* ===== Até 768px ===== */
 @media screen and (max-width: 768px) {
 
+    .RotaPlus {
+        margin-top: 15px; /* reduz ainda mais o espaço */
+    }
+
     .topo-site img {
         width: 250px;
     }
@@ -635,6 +639,9 @@ footer .btn-social button {
 
 /* ===== Até 470px ===== */
 @media screen and (max-width: 470px) {
+    .RotaPlus {
+        margin-top: 10px; /* antes estava 30px */
+    }
 
     header > .interface {
         flex-direction: column;
