@@ -673,6 +673,10 @@ footer .btn-social button {
         margin-top: 10px; /* antes estava 30px */
     }
 
+    header {
+        display: none; /* esconde o header */
+    }
+
     header > .interface {
         flex-direction: column;
         align-items: flex-start;
