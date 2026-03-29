@@ -691,9 +691,9 @@ footer .btn-social button {
 @media screen and (max-width: 470px) {
 
     h1{
-        font-size: 15px;
+        font-size: 25px;
     }
-    
+
     .RotaPlus {
         margin-top: 10px; /* antes estava 30px */
     }
